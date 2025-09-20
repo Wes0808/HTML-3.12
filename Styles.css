@@ -383,17 +383,19 @@ footer {
     padding: 0 8px;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE for SMALL PHONES, TABLETS and LARGE PHONES */
 
 @media (max-width: 550px) {
-    .nav__links {
-        display: none;
-    }
-}
-
-.butn__menu {
+    .butn__menu {
     display: block;
 }
+}
+
+.nav__links {
+        display: none;
+    }
+
+
 
 
 
